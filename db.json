@@ -1,9 +1,31 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    {
+      "id": 1,
+      "title": "My first post",
+      "content": "The content for first post",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "title": "My second post",
+      "content": "The content for second post",
+      "user_id": 1
+    },
+    {
+      "id": 3,
+      "title": "My third post",
+      "content": "The content for third post",
+      "user_id": 1
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "users": [
+    {
+      "id": 1,
+      "username": "Admin"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "name": "typicode"
+  }
 }
